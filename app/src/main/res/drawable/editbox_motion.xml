@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 입력상자가 포커스를 얻었을 때 효과 -->
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/editbox_focused"/>
+    <!-- 입력상자가 포커스를 잃었을 때 효과 -->
+    <item android:drawable="@drawable/editbox_default"/>
+</selector>
+<!--
+selector : 안드로이드에서 Button이나 EditText에 이미지로 커스텀 효과를 주고 싶을 떄 사용한다.
+    state_pressed : 눌러졌을 때
+    state_checked : 체크했을 때
+    state_enabled : 시용 가능할 때
+    state_focused : 포커싱 되었을 때
+    state_selected : 선택되었을 때
+
+    위 속성이 true일 때, 그리고 false 일 때는 반대의 상태가 된다.
+-->
